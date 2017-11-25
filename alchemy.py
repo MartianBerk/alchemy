@@ -4,7 +4,7 @@ from sqlalchemy.orm.session import sessionmaker
 
 Session = sessionmaker(autoflush=False)
 Base = declarative_base()
-engine = create_engine('postgresql://postgres:God0Awesome@localhost:5432/TEST')
+# engine = create_engine('postgresql://postgres:[*********]@localhost:5432/TEST')
 
 
 class DataTable(Base):
